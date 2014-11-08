@@ -1,0 +1,115 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  height: 161px;
+  width: 300px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+
+}
+
+#snippet {
+  width: 285px;
+  height: 34.4px;
+  background-color: white;
+  text-indent: 5px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+  position: fixed;
+  top: 110px;
+  left: 0px;
+  font-size: 16.6px;
+}
+
+#instructions {
+  text-align: center;
+  font-size: 10.3px;
+  padding-top: 10;
+}
+
+#title {
+  text-align:center;
+  padding-top:10px;
+  font-size: 27px;
+}
+
+#embed {
+  height: 34px;
+  width: 81px;
+  border-radius: 0;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #283040;
+  background-color: #39445A;
+  color: white;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+  position: fixed;
+  left:220px;
+  font-size: 16.6px;
+  top: 110px
+}
+
+#footer {
+  position: fixed;
+  bottom: 10px;
+}
+
+#logo {
+  width: 90px;
+  height: 33px;
+  margin-left: 105px;
+  margin-top: 11px;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
