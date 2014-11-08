@@ -1,0 +1,32 @@
+
+<html>
+  <head>
+    <script src='http://sslstatic.wix.com/services/js-sdk/1.24.0/js/Wix.js' type='text/javascript'></script>
+    <script src='js/jquery.js'></script>
+  </head>
+  <body>
+
+    <img src="logo-01.png"/>
+    <main>
+      <head>
+        <header>
+          <h1 id="title">Pickl Settings</h1>
+          <h3 id="instructions">Upload the mix you would like on your page</h3>
+          <div id=lol></div>
+        </header>
+      </head>
+      <main>
+        <form action='/snippet' method='post'>
+          <input id='snippet' name='snippet' placeholder='Paste the embed code here' type='text'>
+          <button id='embed' type='submit' value='Embed'>Submit</button>
+        </form>
+      </main>
+      <footer id="footer">
+        <details>
+          <a>PickL</a>
+        </details>
+      </footer>
+    </main>
+    <script src='js/interface.js'></script>
+  </body>
+</html>
